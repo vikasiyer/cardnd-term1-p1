@@ -6,8 +6,6 @@ The goals / steps of this project are the following:
 * Reflect on my work in this written report
 
 
-[//]: # (Image References)
-
 [image1]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
 [image2]: ./test_images/Output/solidWhiteRight.jpg "Solid White Right"
 [image3]: ./test_images/Output/solidYellowCurve.jpg "Solid Yellow Curve"
