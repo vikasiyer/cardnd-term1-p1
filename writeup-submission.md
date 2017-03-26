@@ -52,7 +52,6 @@ Here's an image that illustrates my pipeline:
 
 ### Shortcomings with my current pipeline
 
-Shortcomings:
 1. For some frames, the lane lines don't get extrapolated all the way to the bottom edge of the image.
 2. The pipeline video output has flickering red lines.
 3. The top edge of the red line tends to move in between the lanes occasionally for a few frames in the video.
