@@ -41,7 +41,7 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 3. After exiting the loop, I drew lines to join the bottom and the top points of both the lanes.
 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image:
+Here's an image that illustrates my pipeline:
 
 ![alt text][image1]
 
