@@ -5,14 +5,11 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on my work in this written report
 
-
-
-
 ---
 
 ### Reflection
 
-Approach
+
 At first I started the assignment leveraging the code used in the lessons to accomplish drawing red marker lines over white/yellow lane lines. After I got that working, I re-used the helper functions given in the Jupyter Notebook to get the solution.
 
 ### The Pipeline:
@@ -38,27 +35,38 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Here's an image that illustrates my pipeline:
 
-[//]: # (Image References)
+
 [image1]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
 [image2]: ./test_images/Output/solidWhiteRight.jpg "Solid White Right"
 [image3]: ./test_images/Output/solidYellowCurve.jpg "Solid Yellow Curve"
 [image4]: ./test_images/Output/solidYellowCurve2.jpg "Solid Yellow Curve 2"
 [image5]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
 [image6]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
+
 ![alt text][image2]
+![alt text][image4]
+
 ---
 
-###2. Shortcomings with my current pipeline
+
+
+### Shortcomings with my current pipeline
 
 Shortcomings:
-1. The pipeline video output has flickering red lines.
-2. The top edge of the red line tends to move in between the lanes occasionally for a few frames in the video.
-3. The optional challenge output does not work so well.
+1. For some frames, the lane lines don't get extrapolated all the way to the bottom edge of the image.
+2. The pipeline video output has flickering red lines.
+3. The top edge of the red line tends to move in between the lanes occasionally for a few frames in the video.
+4. The optional challenge output does not work so well.
+
+![alt text][image1]
+![alt text][image3]
+![alt text][image5]
+![alt text][image6]
 
 I hope that the improvements mentioned below will address these shortcomings.
 
 
 
-###3. Possible improvements to my pipeline
+### Possible improvements to my pipeline
 
  Instead of only relying on the bottom and top most points to draw an extrapolated line, I am trying to calculate an average slope and average constant (b from y=mx+b) of all the lines in a lane. Once I get the average values, I will try to calculate the bottom and top points for both the lanes by assuming the "y co-ordinate" and calculating an "x-coordinate". I have already seen some improvements to the lane markers, though it does not work very well yet. Though the flickering has stopped for most part, the markers seem to meet at the top of the frame. I will work to correct this.
