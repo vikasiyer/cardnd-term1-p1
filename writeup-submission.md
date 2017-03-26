@@ -6,12 +6,7 @@ The goals / steps of this project are the following:
 * Reflect on my work in this written report
 
 
-[image1]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
-[image2]: ./test_images/Output/solidWhiteRight.jpg "Solid White Right"
-[image3]: ./test_images/Output/solidYellowCurve.jpg "Solid Yellow Curve"
-[image4]: ./test_images/Output/solidYellowCurve2.jpg "Solid Yellow Curve 2"
-[image5]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
-[image6]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
+
 
 ---
 
@@ -43,7 +38,15 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Here's an image that illustrates my pipeline:
 
+
+[image1]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
+[image2]: ./test_images/Output/solidWhiteRight.jpg "Solid White Right"
+[image3]: ./test_images/Output/solidYellowCurve.jpg "Solid Yellow Curve"
+[image4]: ./test_images/Output/solidYellowCurve2.jpg "Solid Yellow Curve 2"
+[image5]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
+[image6]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
 ![alt text][image1]
+
 
 
 ###2. Shortcomings with my current pipeline
