@@ -45,7 +45,7 @@ Here's an image that illustrates my pipeline:
 [image4]: ./test_images/Output/solidYellowCurve2.jpg "Solid Yellow Curve 2"
 [image5]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
 [image6]: ./test_images/Output/solidWhiteCurve.jpg "Solid White Curve"
-
+![alt text][image2]
 ---
 
 ###2. Shortcomings with my current pipeline
